@@ -1,33 +1,30 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# GW Bootcamp Assignment-05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+You will need to use [Moment.js](https://momentjs.com/) library to work with date and time. Make sure to have read the documentation carefully and concentrate on using Moment.js in the browser.
 
 ## Links:
 
-```
-Live Site:  
+### Live Site: https://abateb.github.io/workDay-scheduler/
 
-Code Repo:
+### Code Repo: https://github.com/Abateb/workDay-scheduler
 
-Issues & Explanation:
-```
+### ReadME link: https://github.com/Abateb/workDay-scheduler/blob/main/ReadME.md
 
-<!-- link to remote readME goes here  -->
+## Issues & Explanation:
 
-Source code lives at: https://github.com/coding-boot-camp/super-disco
+### Source code lives at: https://github.com/coding-boot-camp/super-disco
 
-## Screenshot
+### Screenshot
 
 ![image](https://user-images.githubusercontent.com/104156484/175123006-cdd943cc-a4ca-45bf-885d-fea9dc496ddb.png)
 
-
-## Application Description
+### Application Description
 
 This is a basic day planner app that loops in real time through the hours of 8am - 5pm(typical working hours) for a specific date, which is the current day that the user opens the app. The app uses moment.js to handle time. The app also allows the user to enter and save text into any description field that has a class of future. The data will be saved to the localStorage of the browser. The past hours are highlighted gray, the current hour red, and future hours green.
 
-## Narrative of what the application will try to accomplish:
+### Narrative of what the application will try to accomplish:
 
 1.  Create an simple app that uses bootstrap, jquery, moment.js, fontawesome, & google fonts
 2.  App is a simple day scheduler of typical working hours in a day.
@@ -35,7 +32,7 @@ This is a basic day planner app that loops in real time through the hours of 8am
 4.  Allow the user to save text for each working hour and change row color depending if it is a past, present for future hour.
 5.  Data of text is to be stored in localStorage of the browser until page is restarted. Refreshed page should still keep the localStorage.
 
-## User Story
+### User Story
 
 ```
 AS AN employee with a busy schedule
@@ -44,7 +41,7 @@ SO THAT I can manage my time effectively
 
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 ```
 GIVEN I am using a daily planner to create a schedule
@@ -63,8 +60,7 @@ THEN the saved events persist
 
 ```
 
-
-## Pseudo code for html
+### Pseudo code for html
 
 1.  typical
 2.  allows save button to have the icon "save" optional
@@ -73,11 +69,11 @@ THEN the saved events persist
 5.  list timeblocks from 24 hour clock and 12 hours clock translation
 6.  jquery and moment links from https://cdnjs.com/libraries/moment.js/
 
-## Pseudo code for css
+### Pseudo code for css
 
 1.  typical setup using html attributes and classes
 
-## Pseudo code for js
+### Pseudo code for js
 
 1.  tells engine to load 1)html & 2)css first.
 2.  display current day & time.
