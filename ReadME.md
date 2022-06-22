@@ -20,7 +20,7 @@ Issues & Explanation:
 
 <!-- link to remote readME goes here  -->
 
-Source code lives at:
+Source code lives at: https://github.com/coding-boot-camp/super-disco
 
 ## Screenshot
 
