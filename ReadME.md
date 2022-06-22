@@ -22,6 +22,11 @@ Issues & Explanation:
 
 Source code lives at:
 
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/104156484/175123006-cdd943cc-a4ca-45bf-885d-fea9dc496ddb.png)
+
+
 ## Application Description
 
 This is a basic day planner app that loops in real time through the hours of 8am - 5pm(typical working hours) for a specific date, which is the current day that the user opens the app. The app uses moment.js to handle time. The app also allows the user to enter and save text into any description field that has a class of future. The data will be saved to the localStorage of the browser. The past hours are highlighted gray, the current hour red, and future hours green.
