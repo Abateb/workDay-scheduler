@@ -7,13 +7,9 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 ## Links:
 
 ```
-Live Site:
-
-   <!-- live site link goes here -->
+Live Site:  
 
 Code Repo:
-
-<!-- code repo goes here -->
 
 Issues & Explanation:
 ```
